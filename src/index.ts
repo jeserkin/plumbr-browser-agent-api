@@ -1,5 +1,4 @@
 export interface Plumbr {
-
   setAppName(appName: string): void;
 
   setServiceName(serviceName: string): void;
