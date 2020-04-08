@@ -1,0 +1,37 @@
+{
+  "name": "plumbr-browser-agent-api",
+  "version": "1.0.1",
+  "description": "Plumbr Browser Agent API port for TypeScript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeserkin/plumbr-browser-agent-api.git"
+  },
+  "keywords": [
+    "plumbr",
+    "typescript"
+  ],
+  "author": "Eugene Serkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeserkin/plumbr-browser-agent-api/issues"
+  },
+  "homepage": "https://github.com/jeserkin/plumbr-browser-agent-api",
+  "devDependencies": {
+    "jest": "^25.3.0",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
